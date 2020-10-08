@@ -1,13 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Counter extends Component {
-    render() {
-        return (
-            <>
-                <h1>{this.props.count}</h1>
-            </>
-        )
-    }
+function Counter(props) {
+    return (
+        <>
+            <h1>{props.count}</h1>
+        </>
+    )
 }
 
 export default Counter
